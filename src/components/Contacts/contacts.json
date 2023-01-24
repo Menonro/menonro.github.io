@@ -1,0 +1,30 @@
+[
+    {
+        "href": "https://vk.me/menonro",
+        "imgSrc": "/static/images/icons/social/vk.svg"
+    },
+    {
+        "href": "https://wa.me/77014939501",
+        "imgSrc": "/static/images/icons/social/whatsapp.svg"
+    },
+    {
+        "href": "skype:nitady65?chat",
+        "imgSrc": "/static/images/icons/social/skype.svg"
+    },
+    {
+        "href": "https://discord.gg/j92YZ76",
+        "imgSrc": "/static/images/icons/social/discord.svg"
+    },
+    {
+        "href": "https://telegram.im/menonro",
+        "imgSrc": "/static/images/icons/social/telegram.svg"
+    },
+    {
+        "href": "https://fb.me/menonro",
+        "imgSrc": "/static/images/icons/social/facebook.svg"
+    },
+    {
+        "href": "tel:+77054939501",
+        "imgSrc": "/static/images/icons/social/phone.svg"
+    }
+]
