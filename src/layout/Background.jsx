@@ -46,7 +46,7 @@ export default function Background() {
     const reset = () => {
       hexagons = generateHexagons(colors, root)
     }
-    timer = setInterval(() => window.requestAnimationFrame(draw), 2000)
+    timer = setInterval(() => window.requestAnimationFrame(draw), 1000/60)
     window.addEventListener("resize",reset);
     return () => {
       clearInterval(timer)
@@ -82,7 +82,7 @@ export default function Background() {
 function generateColors() {
   const colors = []
   let current
-  for (let k = 0; k < range; k += 10) {
+  for (let k = 0; k < range; k += 1) {
     current = toHex(k)
     colors.push(`#${current}${current}${current}`)
   }
