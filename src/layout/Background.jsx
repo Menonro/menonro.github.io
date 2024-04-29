@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 
-const range = 120
+const range = 40
 
 export default function Background() {
   const canvas = useRef()
@@ -66,6 +66,7 @@ export default function Background() {
           bottom: 0;
           width: 100%;
           height: 100vh;
+          filter: blur(30px);
         }
         canvas:after {
           content: '';

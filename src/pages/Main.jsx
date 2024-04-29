@@ -6,8 +6,9 @@ import { Link } from 'react-router-dom';
 export default function Main() {
   return (
     <Row className='pt-5'>
+      {/* #212121 */}
       <Tile styles={{
-        background: '#212121',
+        background: 'linear-gradient(60deg, rgb(33,33,33) 0%, rgb(144,144,144) 100%)',
       }} route="/contacts">
         <h2>
           WEB
@@ -23,9 +24,11 @@ export default function Main() {
           Контакты
         </h5>
       </Tile>
+      {/* #2EC6F6 */}
       <Tile right styles={{
-        background: '#2EC6F6',
+        background: 'linear-gradient(60deg, rgb(46,198,246) 0%, rgb(1,32,41) 100%)',
       }}>
+        {/* #0065A3 */}
         <h3>
           Bitrix<span style={{color: '#0065A3'}}>24</span>
         </h3>
@@ -42,8 +45,9 @@ export default function Main() {
           <b style={{color: 'gold'}}>золотом</b> партнёре
         </h5>
       </Tile>
+      {/* #777BB3 */}
       <Tile styles={{
-        background: '#777BB3',
+        background: 'linear-gradient(60deg, rgb(119,123,179) 0%, rgb(16,16,28) 100%)',
       }}>
         <h3>
           PHP
@@ -62,9 +66,9 @@ export default function Main() {
           С 2018 года
         </h5>
       </Tile>
+      {/* #F6DF17 */}
       <Tile styles={{
-        background: '#F6DF17',
-        color: 'black'
+        background: 'linear-gradient(60deg, rgb(246,223,23) 0%, rgb(38,34,1) 100%)',
       }}>
         <h3>
           JS
@@ -83,8 +87,9 @@ export default function Main() {
           С 2017 года
         </h5>
       </Tile>
+      {/* #326DE4 */}
       <Tile right styles={{
-        background: '#326DE4',
+        background: 'linear-gradient(60deg, rgb(50,109,228) 0%, rgb(4,15,36) 100%)',
       }}>
         <h3>
           Devops
@@ -100,8 +105,9 @@ export default function Main() {
           С 2024 года
         </h5>
       </Tile>
+      {/* #212121 */}
       <Tile styles={{
-        background: '#212121',
+        background: 'linear-gradient(60deg, rgb(33,33,33) 0%, rgb(144,144,144) 100%)',
       }} route="about">
         <h3>
           О себе

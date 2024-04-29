@@ -5,12 +5,27 @@
     <link id="fav" rel="shortcut icon" href="%PUBLIC_URL%/images/favicon.png" type="image/png"></link>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json?id=3" />
+
+    <title>Визитка WEB разработчика</title>
     <meta
       name="description"
-      content="Визитка WEB разработчика"
+      content="Сайт-визитка Menonro"
     />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Визитка WEB разработчика</title>
+    
+    <meta name="title" content="Визитка WEB разработчика">
+    <meta name="description" content="Сайт-визитка Menonro">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ config('app.url') }}">
+    <meta property="og:title" content="Визитка WEB разработчика">
+    <meta property="og:description" content="Сайт-визитка Menonro">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://menonro.github.io">
+    <meta property="twitter:title" content="Визитка WEB разработчика">
+    <meta property="twitter:description" content="Сайт-визитка Menonro">
   </head>
   <body>
     <noscript>У вас отключен JavaScript, сайту нечего показывать</noscript>
