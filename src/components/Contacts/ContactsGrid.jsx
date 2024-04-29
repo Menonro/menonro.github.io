@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
-import HexagonContainer from '../FirstScreen/HexagonMain'
+import Hexagone from '../TextHexagone'
 
 import contacts from './contacts.json'
 
@@ -27,9 +27,9 @@ const ContactLink = ({ href, imgSrc }) => {
     return (
         <div className="col-12 col-sm-6 col-md-4 col-lg-3">
             <a href={href} target="_blank">
-                <HexagonContainer vAlign="center" animated hover>
+                <Hexagone vAlign="center" animated hover>
                     <img src={imgSrc}/>
-                </HexagonContainer>
+                </Hexagone>
             </a>
             <style jsx>{`
                 img {

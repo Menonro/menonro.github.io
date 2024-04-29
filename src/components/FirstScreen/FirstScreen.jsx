@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Name from './Name'
-import HexadonMain from './HexagonMain'
+import Hexagone from '../TextHexagone'
 import { Link } from "react-router-dom";
 
 class FirstScreen extends Component  {
@@ -67,58 +67,58 @@ class FirstScreen extends Component  {
               <div className="row h0">
                 <div className="col-12 col-md-3">
                   <Link to="about">
-                    <HexadonMain vAlign="center" setRef={this.setRef('leftTop')} animated>
+                    <Hexagone vAlign="center" setRef={this.setRef('leftTop')} animated>
                       <div className="hexa">
                         Биография
                       </div>
                       <img src="/static/images/icons/about.svg" alt="" className="hexa__bg"/>
-                    </HexadonMain>
+                    </Hexagone>
                   </Link>
                 </div>
                 <div className="col-12 col-md-3 offset-md-6">
                   <Link to="cases">
-                    <HexadonMain vAlign="center" setRef={this.setRef('leftBottom')} animated>
+                    <Hexagone vAlign="center" setRef={this.setRef('leftBottom')} animated>
                       <div className="hexa">
                         Кейсы
                       </div>
                       <img src="/static/images/icons/work.svg" alt="" className="hexa__bg"/>
-                    </HexadonMain>
+                    </Hexagone>
                   </Link>
                 </div>
               </div>
 
               <div className="row overlay">
                 <div className="col-12 col-md-8 offset-md-2">
-                  <HexadonMain
+                  <Hexagone
                     size="large"
                     vAlign="center"
                     imageUrl="/static/me/main.jpg"
                     hover={false}
                     setRef={this.setRef('center')}>
                     <Name type="h1"/>
-                  </HexadonMain>
+                  </Hexagone>
                 </div>
               </div>
             
               <div className="row h0">
                 <div className="col-12 col-md-3 toTop">
                   {/* <Link to="philosophy"> */}
-                    <HexadonMain vAlign="center" setRef={this.setRef('rightTop')} animated>
+                    <Hexagone vAlign="center" setRef={this.setRef('rightTop')} animated>
                       <div className="hexa">
                         Философия
                       </div>
                       <img src="/static/images/icons/yin-yang.svg" alt="" className="hexa__bg"/>
-                    </HexadonMain>
+                    </Hexagone>
                   {/* </Link> */}
                 </div>
                 <div className="col-12 col-md-3 offset-md-6 toTop">
                   <Link to="contacts">
-                    <HexadonMain vAlign="center" setRef={this.setRef('rightBottom')} animated>
+                    <Hexagone vAlign="center" setRef={this.setRef('rightBottom')} animated>
                       <div className="hexa">
                         Контакты
                       </div>
                       <img src="/static/images/icons/contact.svg" alt="" className="hexa__bg"/>
-                    </HexadonMain>
+                    </Hexagone>
                   </Link>
                 </div>
               </div>

@@ -20,6 +20,11 @@ export default class BiographyGrid extends Component {
                         flex-direction: column;
                         width: 100%;
                     }
+                    @media screen and (max-width: 767px) {
+                        ul {
+                            padding-left: 0;
+                        }
+                    }
                 `}</style>
             </Container>
         )
@@ -121,6 +126,16 @@ const BiographyItem = ({ data, title, text, link = false }) => {
                     }
                     .link {
                         font-size: 1.35rem;
+                    }
+                    @media screen and (max-width: 767px) {
+                        li {
+                            width: 100%;
+                            text-align: center !important;
+                            border-bottom: 1px solid white;
+                        }
+                        li:after, li:before {
+                            content: none;
+                        }
                     }
                 `}
             </style>

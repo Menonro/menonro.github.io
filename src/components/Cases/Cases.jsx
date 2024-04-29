@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react'
 
 import { Link } from "react-router-dom";
 import { Container, Row, Col } from 'react-bootstrap'
-import Hexadone from '../FirstScreen/HexagonMain'
+import Hexagone from '../TextHexagone'
 
 import Header from '../Layout/Header'
 
@@ -53,10 +53,10 @@ function Case ({ data }) {
   return (
     <Col lg={4}>
       {/* <Link to={data.slug}> */}
-        <Hexadone imageUrl={data.imageUrl} hover>
+        <Hexagone imageUrl={data.imageUrl} hover>
           <h3>{ data.name }</h3>
           <p>{ data.shortDescription }</p>
-        </Hexadone>
+        </Hexagone>
       {/* </Link> */}
       <style jsx>{`
         h3 {

@@ -1,22 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { HashRouter } from "react-router-dom";
 import App from './App';
+
+import changeFav from './utils/favChanger'
+import loadFont from './utils/loadFont'
+
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter } from "react-router-dom";
+changeFav()
+loadFont("NEXT ART", "/static/fonts/next_art/woff.css", "/static/fonts/next_art/woff.css");
 
-
-const _JSXStyle = require('styled-jsx/style').default;
-if (typeof global !== 'undefined') {
-    Object.assign(global, { _JSXStyle });
-}
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

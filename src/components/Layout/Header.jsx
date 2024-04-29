@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Container, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 import ContentTitle from '../Typographic/ContentTitle'
 import BackBtn from '../Typographic/BackBtn'
@@ -8,14 +8,14 @@ import MenuBtn from '../Typographic/MenuBtn'
 
 export default function Header({ title }) {
     return (
-        <Container>
-          <Row className="justify-content-md-center justify-content-around">
+        <div>
+          <Row className="justify-content-md-center justify-content-around g-1">
             <Col xs="auto">
               <div className="mt-5 mb-3">
                 <BackBtn/>
               </div>
             </Col>
-            <Col xs="auto" className="order-last order-md-0">
+            <Col xs="auto">
               <ContentTitle>{title}</ContentTitle>
             </Col>
             <Col xs="auto">
@@ -24,6 +24,6 @@ export default function Header({ title }) {
               </div>
             </Col>
           </Row>
-        </Container>
+        </div>
     )
 }
