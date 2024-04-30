@@ -32,6 +32,6 @@ export default function loadFont(fontName, woffUrl, woff2Url) {
 function supportsWoff2() {
   if (!window.FontFace) { return false; }
   var f = new FontFace("t", "url(\"data:application/font-woff2,\") format(\"woff2\")", {});
-  f.load();
-  return f.status === "loading";
+  f.load().catch(()=>{});
+  return f.status === "loading" || f.status === "loaded";
 }
