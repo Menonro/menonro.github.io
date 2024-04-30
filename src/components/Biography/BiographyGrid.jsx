@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import biographyData from './biography.json'
 
 export default class BiographyGrid extends Component {
@@ -19,11 +19,7 @@ export default class BiographyGrid extends Component {
                         display: flex;
                         flex-direction: column;
                         width: 100%;
-                    }
-                    @media screen and (max-width: 767px) {
-                        ul {
-                            padding-left: 0;
-                        }
+                        padding-left: 0;
                     }
                 `}</style>
             </Container>
@@ -40,10 +36,7 @@ const BiographyItem = ({ data, title, text, link = false }) => {
             <p className="text">{text}</p>
             {
                 link 
-                    ?
-                        <Link to={link.url} className="link">
-                            {link.title}
-                        </Link>
+                    ? <Link to={link.url} className="link">{link.title}</Link>
                     : null
             }
             <style jsx>

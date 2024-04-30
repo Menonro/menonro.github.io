@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 // import Preloader from '../Preloader/Preloader'
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import { MenuContextProvider } from '../../contexts/MenuContext'
 import Menu from '../Menu/Menu'
@@ -8,8 +7,8 @@ import Menu from '../Menu/Menu'
 
 
 const Layout = ({ children }) => {
-  const [show, setshow] = useState(false);
-  useEffect(() => { setTimeout(() => setshow(true), 500) }, [])
+  // const [show, setshow] = useState(false);
+  // useEffect(() => { setTimeout(() => setshow(true), 500) }, [])
   return (
     <MenuContextProvider>
       {/* <Preloader /> */}
