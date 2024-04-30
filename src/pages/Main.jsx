@@ -20,9 +20,9 @@ export default function Main() {
           Menonro
         </p>
         <hr style={{width: '50%'}}/>
-        <p className="h5">
+        <u className="h5">
           Контакты
-        </p>
+        </u>
       </Tile>
       {/* #2EC6F6 */}
       <Tile right styles={{
@@ -98,7 +98,7 @@ export default function Main() {
           Новое направление
         </p>
         <p className="h5">
-          Изучаю Docker+Kubernetes
+          Изучаю Docker + K8S
         </p>
         <hr style={{width: '50%'}}/>
         <p className="h5">
@@ -109,9 +109,9 @@ export default function Main() {
       <Tile styles={{
         background: 'linear-gradient(60deg, rgb(33,33,33) 0%, rgb(144,144,144) 100%)',
       }} route="about">
-        <p className="h3">
+        <u className="h3">
           О себе
-        </p>
+        </u>
         <hr style={{width: '50%'}}/>
         <p className="h5">
           С кем вы работаете
