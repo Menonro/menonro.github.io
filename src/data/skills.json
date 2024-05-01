@@ -3,36 +3,54 @@
         "icon": "/static/images/skills/webp/b24.webp",
         "preview": "/static/images/skills/webp/b24_preview.webp",
         "title": "Bitrix24",
-        "description": "Специалист по Bitrix с большим опытом кастомизации ядра и работы с фреймворком D7. Я успешно выполнил задач на более чем 500 часов для крупного заказчика, включая сложные интеграции с 1С и тонкую настройку прав доступа для портала с 2000+ активными пользователями.",
-        "level": "3 Сертификата",
-        "short_description": "D7, REST, Свои модули",
-        "bg": "linear-gradient(60deg, rgb(1,32,41) 0%, rgb(46,198,246) 100%)"
-    },
-    {
-        "icon": "/static/images/skills/webp/php.webp",
-        "preview": "/static/images/skills/webp/php_preview.webp",
-        "title": "PHP",
-        "description": "Опытный разработчик на PHP, который реализовал более 5 проектов на Laravel, включая админ-панели с использованием Laravel Orchid. Обладаю навыками написания скриптов, доработки WordPress и интеграции с различными внешними системами.",
-        "level": "Middle+",
-        "short_description": "Laravel, Orchid, Telegram Bot",
-        "bg": "linear-gradient(60deg, #212121 0%, #787CB4 100%)"
+        "description": "Продвинутый специалист по Bitrix с большим опытом кастомизации ядра и работы с фреймворком D7. Успешно выполнил задач на более чем 500 часов для крупного заказчика, включая сложные интеграции с 1С и тонкую настройку прав доступа для портала с 2000+ активными пользователями.",
+        "level": "4 Сертификата",
+        "short_description": "D7, REST, CRM, БП",
+        "bg": "linear-gradient(60deg, rgb(1,32,41), rgb(46,198,246)"
     },
     {
         "icon": "/static/images/skills/webp/node.webp",
         "preview": "/static/images/skills/webp/node_preview.webp",
-        "title": "Node",
-        "description": "Middle в Node.js с опытом разработки Telegram-ботов, парсеров данных и обхода антиботов. Также я создавал Discord-бота и псевдомикросервис, демонстрируя способность разрабатывать гибкие и эффективные серверные приложения.",
-        "level": "Middle",
-        "short_description": "Express, PM2, DS Bot, Puppeteer",
-        "bg": "linear-gradient(60deg, #004D40 0%, #8BC500 100%)"
+        "title": "Node.JS",
+        "description": "Имею опыт разработки Telegram-ботов, парсеров данных с обходом антиботов. Также создавал Discord-бота и небольшой прокси-микросервис для демонстрации способности разрабатывать гибкие и эффективные серверные приложения.",
+        "level": "Middle+",
+        "short_description": "Express, PM2, Discord, ",
+        "bg": "linear-gradient(60deg, #004D40, #8BC500)"
     },
     {
         "icon": "/static/images/skills/webp/js.webp",
         "preview": "/static/images/skills/webp/js_preview.webp",
         "title": "JS",
-        "description": "Мастер JavaScript с умением аккуратно переносить макеты из Figma в точную вёрстку. Я уверенно работаю с React и его экосистемой, создавая интерактивные пользовательские интерфейсы. При необходимости применяю jQuery для более простых задач. Также был опыт работы с Next.js.",
-        "level": "Middle",
-        "short_description": "React (Redux, Saga...), jQuery",
-        "bg": "linear-gradient(60deg, #BF360C 0%, #FF8F00 100%)"
+        "description": "Уверенно работаю с React и его экосистемой. Создаю интерактивные пользовательские интерфейсы. При необходимости применяю jQuery для более простых задач. Также был опыт работы с Next.js.",
+        "level": "Middle+",
+        "short_description": "React, Redux, jQuery, ESNext",
+        "bg": "linear-gradient(60deg, #BF360C, #FF8F00)"
+    },
+    {
+        "icon": "/static/images/skills/webp/php.webp",
+        "preview": "/static/images/skills/webp/php_preview.webp",
+        "title": "PHP",
+        "description": "Опытный разработчик на PHP. Реализовал более 5 проектов на Laravel с админ-панелями Laravel Orchid. Обладаю навыками написания скриптов, доработки WordPress и интеграции с различными внешними системами.",
+        "level": "Middle+",
+        "short_description": "Laravel, Orchid, Telegram Bot",
+        "bg": "linear-gradient(60deg, #212121, #787CB4)"
+    },
+    {
+        "icon": "/static/images/skills/webp/sql.webp",
+        "preview": "/static/images/skills/webp/sql_preview.webp",
+        "title": "Базы данных",
+        "description": "Обладаю большим опытом работы с SQL, MySQL, а также некоторым опытом работы с PostgreSQL и Redis. Пишу как сложные кросс-запросы, так и быстрые и оптимизированные SQL-запросы. Предпочитаю ORM, но свободно работаю с чистым SQL.",
+        "level": "MIDDLE+",
+        "short_description": "SQL, MySQL, PgSQL, Redis",
+        "bg": "linear-gradient(60deg, #0D47A1, #00BDF2)"
+    },
+    {
+        "icon": "/static/images/skills/webp/css.webp",
+        "preview": "/static/images/skills/webp/css_preview.webp",
+        "title": "CSS & HTML",
+        "description": "Отлично владею Bootstrap и Flexbox/Grid для адаптивного дизайна. Переношу макеты из Photoshop, Figma или даже Paint. Предпочитаю SASS, БЭМ и методологию 7-1. Люблю современный дизайн.",
+        "level": "Джедай вёрстки",
+        "short_description": "Figma, Bootstrap, Grid",
+        "bg": "linear-gradient(60deg, #2061AE, #64B5F6)"
     }
 ]

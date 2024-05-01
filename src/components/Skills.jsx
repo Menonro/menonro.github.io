@@ -95,7 +95,7 @@ function Skill({ icon, level, short_description, bg, delay: appendDelay = 0, cur
         img {
           object-fit: contain;
           width: 100%;
-          height: 100%;
+          height: 60px;
           grid-area: image;
         }
         .h5 {

@@ -30,7 +30,7 @@ export default function SkillsSlider() {
         translateX: 0
       }}
       transition={{
-        delay: 1.75,
+        delay: 2.25,
       }}
       style={{
         maxHeight: '100%',
