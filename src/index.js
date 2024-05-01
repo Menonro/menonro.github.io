@@ -8,7 +8,7 @@ import loadFont from './utils/loadFont'
 
 import reportWebVitals from './reportWebVitals';
 
-changeFav()
+// changeFav()
 loadFont("NEXT ART", "/static/fonts/next_art/woff.css", "/static/fonts/next_art/woff2.css");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -2,32 +2,21 @@ import React from 'react'
 
 export default function Hexagone({ children, text, style = {}, hide = false }) {
   return (
-    <div className="hex">
-      <div className='hex__inner' style={style}>
-        {children}
-      </div>
+    <div className="hex" style={style}>
+      {children}
       <style jsx>{`
         .hex {
           position: relative;
-          padding-top: 86.75%;
-          width: 100%;
           text-align: center;
-          cursor: pointer;
-        }
-        .hex__inner {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          height: 100%;
           width: 100%;
+          aspect-ratio: 100/86.75;
           overflow: hidden;
           transform: rotate(0deg) translate(0%, 0%);
           clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
           transition-property: transform, clip-path, height, width, top, left;
           transition-timing-function: ease;
           transition-duration: .5s;
+          cursor: pointer;
           ${
             !text
               ? `display: flex;

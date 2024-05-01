@@ -52,14 +52,14 @@ export default function Background() {
       clearInterval(timer)
       window.removeEventListener("resize",reset);
     };
-  }, [true]);
+  }, []);
   return (
     <>
       <canvas ref={canvas} id="bg"/>
       <style jsx>{`
         canvas {
           position: fixed;
-          z-index: 1;
+          z-index: -1;
           top: 0;
           left: 0;
           right: 0;

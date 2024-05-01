@@ -2,9 +2,9 @@ import React from 'react'
 
 import { Row, Col } from 'react-bootstrap'
 
-import ContentTitle from '../Typographic/ContentTitle'
-import BackBtn from '../Typographic/BackBtn'
-import MenuBtn from '../Typographic/MenuBtn'
+import ContentTitle from '../components/Typographic/ContentTitle'
+import BackBtn from '../components/Typographic/BackBtn'
+import MenuBtn from '../components/Typographic/MenuBtn'
 
 export default function Header({ title }) {
     return (

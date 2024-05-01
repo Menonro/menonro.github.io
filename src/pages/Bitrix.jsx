@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/Layout/Header'
+import Header from '../layout/Header'
 
 export default function Bitrix() {
   return (

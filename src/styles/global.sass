@@ -1,32 +1,43 @@
 // @import 'reset-css/sass/_reset.scss'
-@import "bootstrap/scss/functions"
-@import "bootstrap/scss/variables"
-@import "bootstrap/scss/maps"
-@import "bootstrap/scss/mixins"
-// @import "bootstrap/scss/root"
-@import "bootstrap/scss/utilities"
+@import 'bootstrap/scss/bootstrap'
+// @import "bootstrap/scss/functions"
+// @import "bootstrap/scss/variables"
+// @import "bootstrap/scss/maps"
+// @import "bootstrap/scss/mixins"
+// // @import "bootstrap/scss/root"
+// @import "bootstrap/scss/utilities"
 
-@import "bootstrap/scss/type"
-@import "bootstrap/scss/reboot"
-@import "bootstrap/scss/containers"
-@import "bootstrap/scss/grid"
-@import "bootstrap/scss/helpers"
+// @import "bootstrap/scss/type"
+// @import "bootstrap/scss/reboot"
+// @import "bootstrap/scss/containers"
+// @import "bootstrap/scss/navbar"
+// @import "bootstrap/scss/nav"
+// @import "bootstrap/scss/accordion"
+// @import "bootstrap/scss/grid"
+// @import "bootstrap/scss/helpers"
 
-@import "bootstrap/scss/utilities/api"
+// @import "bootstrap/scss/utilities/api"
 
 :root
-  --bs-white-rgb: 255,255,255
+  // --bs-white-rgb: 255,255,255
   --bs-border-radius: 10px
   --bs-border-width: 2px
+  --swiper-pagination-bottom: 0
+  --swiper-pagination-bullet-size: 20px
+  --swiper-pagination-bullet-inactive-color: #fff
+  --swiper-pagination-color: #fff
 
 body
   margin: 0
   min-height: 100vh
   background-color: #121212
   color: #fff
-  font-family: NEXT ART, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-family: NEXT ART, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
 
 code
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace
@@ -47,3 +58,31 @@ a
   b, span
     transition: all .6s ease !important
 
+.swiper-slide:not(.swiper-slide-visible)
+  opacity: 0 !important
+.swiper
+  padding-bottom: 30px !important
+
+@keyframes spinGradient
+  from, to
+    background-position: 0% 0%
+  50%
+    background-position: 100% 100%
+
+@keyframes hexadone
+  0%
+    clip-path: polygon(75% 0, 75% 0, 100% 50%, 100% 50%, 75% 100%, 75% 100%, 25% 100%, 25% 100%, 0 50%, 0 50%, 25% 0, 25% 0)
+    background-color: rgba(255,255,255,1)
+  33.33%
+    clip-path: polygon(75% 0, 70% 8.63%, 100% 50%, 90% 50%, 75% 100%, 70% 91.37%, 25% 100%, 30% 91.67%, 0 50%, 10% 50%, 25% 0, 30% 8.63%)
+  100%
+    clip-path: polygon(30% 8.63%, 30% 8.63%, 70% 8.63%, 70% 8.63%, 90% 50%, 90% 50%, 70% 91.37%, 70% 91.37%, 30% 91.67%, 30% 91.67%, 10% 50%, 10% 50%)
+    background-color: rgba(255,255,255,.75)
+    
+@keyframes hexadoneBack
+  0%
+    clip-path: polygon(70% 8.63%, 70% 8.63%, 90% 50%, 90% 50%, 70% 91.37%, 70% 91.37%, 30% 91.67%, 30% 91.67%, 10% 50%, 10% 50%, 30% 8.63%, 30% 8.63%)
+    background-color: rgba(255,255,255,.75)
+  100%
+    clip-path: polygon(75% 0, 75% 0, 100% 50%, 100% 50%, 75% 100%, 75% 100%, 25% 100%, 25% 100%, 0 50%, 0 50%, 25% 0, 25% 0)
+    background-color: rgba(255,255,255,1)

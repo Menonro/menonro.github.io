@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import Header from '../components/Layout/Header'
+import Header from '../layout/Header'
 import BiographyGrid from '../components/Biography/BiographyGrid'
 
 export default function About() {
