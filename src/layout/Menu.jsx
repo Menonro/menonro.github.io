@@ -28,7 +28,7 @@ export default function Menu() {
         }}
         >
         <Container fluid className='g-5'>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand as={Link} to="/">
             <h2>Menonro</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)}/>
