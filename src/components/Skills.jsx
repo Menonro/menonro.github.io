@@ -71,8 +71,8 @@ function Skill({ icon, level, short_description, bg, delay: appendDelay = 0, cur
         style={{ background: bg }}
         >
         <img src={icon} alt={level} />
-        <h5>{ level }</h5>
-        <span>{ short_description }</span>
+        <span className='h5'>{ level }</span>
+        <p>{ short_description }</p>
       </div>
       <style jsx>{`
         div {
@@ -98,14 +98,14 @@ function Skill({ icon, level, short_description, bg, delay: appendDelay = 0, cur
           height: 100%;
           grid-area: image;
         }
-        h5 {
+        .h5 {
           grid-area: title;
           border-bottom: 1px solid white;
         }
-        span {
+        p {
           grid-area: subtitle;
         }
-        h5, span {
+        .h5, p {
           margin-bottom: 0;
           line-height: 1;
         }

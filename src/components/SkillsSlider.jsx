@@ -84,6 +84,7 @@ function Slide ({ preview, title, description }) {
         img {
           object-fit: contain;
           max-height: 60vh;
+          max-width: 100%;
         }
       `}</style>
     </div>

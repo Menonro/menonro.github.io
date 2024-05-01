@@ -6,7 +6,7 @@ import Layout from './layout/Layout';
 
 import './styles/global.sass'
 import Form from './pages/Form';
-import About from './pages/About';
+// import About from './pages/About';
 import Landing from './pages/Landing';
 import Menu from './layout/Menu';
 import Page from './layout/Page';
