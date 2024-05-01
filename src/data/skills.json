@@ -14,7 +14,7 @@
         "title": "Node.JS",
         "description": "Имею опыт разработки Telegram-ботов, парсеров данных с обходом антиботов. Также создавал Discord-бота и небольшой прокси-микросервис для демонстрации способности разрабатывать гибкие и эффективные серверные приложения.",
         "level": "Middle+",
-        "short_description": "Express, PM2, Discord, ",
+        "short_description": "Express, PM2, Discord",
         "bg": "linear-gradient(60deg, #004D40, #8BC500)"
     },
     {
