@@ -9,7 +9,7 @@ export default function SkillBlock({ title, icon, level, start, skills = [] }) {
       <SkillLevel level={ level } start={ start }/>
       <hr className="w-100" />
       {
-        skills.map((skill, index) => <SkillRow {...skill} index={ index }/>)
+        skills.map((skill, index) => <SkillRow {...skill} index={ index } key={`skill-row-${index}`}/>)
       }
     </div>
   )

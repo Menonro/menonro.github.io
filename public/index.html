@@ -32,7 +32,6 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 
     <!-- Preload -->
     <link rel="preload" as="image" href="/static/images/me/photo.webp">
@@ -40,6 +39,14 @@
   <body>
     <noscript>У вас отключен JavaScript, сайту нечего показывать</noscript>
     <div id="root"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ['Comfortaa:400,500:cyrillic']
+        }
+      });
+    </script>
     <script src="/static/libs/cssShapesPolyfill.js" data-auto-run="false"></script>
     <script>
       window.onload = function() { window.ShapesPolyfill.run(); }
