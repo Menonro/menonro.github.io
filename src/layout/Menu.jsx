@@ -25,6 +25,7 @@ export default function Menu() {
         expanded={expanded}
         style={{
           backdropFilter: 'blur(15px)',
+          backgroundColor: 'rgba(0,0,0,.6)',
         }}
         >
         <Container fluid className='g-5'>
