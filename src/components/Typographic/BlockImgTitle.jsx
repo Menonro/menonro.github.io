@@ -4,7 +4,7 @@ export default function BlockImgTitle({ title, icon, href = false }) {
   return (
     <IsLink href={ href }>
       <div>
-        <img src={ icon } />
+        <img src={ icon } alt={ `Icon ${title}` } />
         <h3>{ title }</h3>
         <style jsx>{`
           div {
