@@ -66,7 +66,7 @@ export default function Background() {
           bottom: 0;
           width: 100%;
           height: 100vh;
-          filter: blur(30px);
+          filter: blur(30px) brightness(0.4);
         }
         canvas:after {
           content: '';

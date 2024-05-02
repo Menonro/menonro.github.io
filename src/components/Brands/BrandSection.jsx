@@ -8,7 +8,7 @@ export default function BrandSection() {
   return (
     <>
       <Section id="clients" title="Клиенты">
-        <Row className='mb-3 g-3'>
+        <Row className='mb-4 g-2'>
           {
             brandsList.big.map((brand, index) => (
               <Col xs="12" md="6" lg="4">
@@ -17,7 +17,7 @@ export default function BrandSection() {
             ))
           }
         </Row>
-        <Row className='mb-3 g-2'>
+        <Row className='mb-4 g-2'>
           {
             brandsList.medium.map((brand, index) => (
               <Col xs="6" md="3" lg="3">
@@ -26,17 +26,28 @@ export default function BrandSection() {
             ))
           }
         </Row>
-        <Row className='mb-3 g-1'>
+        <div className='grid mb-3'>
           {
             brandsList.other.map((brand, index) => (
-              <Col xs="4" md="2" lg="1">
-                <Brand logo={brand.logo} key={`brand-${index}`}/>
-              </Col>
+              <Brand logo={brand.logo} key={`brand-${index}`}/>
             ))
           }
-        </Row>
+        </div>
       </Section>
       <style jsx>{`
+        .grid {
+          display: grid;
+          grid-gap: .5rem;
+          grid-auto-flow: column;
+          grid-template-rows: repeat(3, 1fr);
+        }
+        @media screen and (max-width: 767px) {
+          .grid {
+            grid-auto-flow: row;
+            grid-template-rows: auto;
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
       `}</style>
     </>
   )
@@ -53,22 +64,20 @@ function Brand({ logo }) {
           width: 100%;
           aspect-ratio: 2.25;
           object-fit: contain;
-          filter: saturate(0.8);
+          filter: saturate(0.75);
         }
         figure {
-          background-color: rgba(255,255,255,.1);
+          background-color: rgba(255,255,255,0);
           display: flex;
           justify-content: center;
           padding: 5%;
           margin-bottom: 0;
-          border-radius: 5px;
-          border-top: 3px solid white;
           border-bottom: 3px solid white;
           cursor: pointer;
           transition: background .3s ease-out;
         }
         figure:hover {
-          background-color: rgba(255,255,255,.2);
+          background-color: rgba(255,255,255,.1);
         }
       `}</style>
     </>
