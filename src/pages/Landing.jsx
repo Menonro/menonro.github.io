@@ -8,8 +8,8 @@ export default function Landing() {
   return (
     <>
       <FirstSection />
-      <BrandSection />
       <SkillsSection />
+      <BrandSection />
       <ContactsSection />
     </>
   )

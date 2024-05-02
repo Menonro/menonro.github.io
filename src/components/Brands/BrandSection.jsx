@@ -7,73 +7,36 @@ import brandsList from '../../data/brands.json'
 export default function BrandSection() {
   return (
     <>
-    <Section id="clients" title="Клиенты" />
-      <div className="wrap">
-        <div className="items-wrap">
-          <div className='d-flex flex-nowrap marquee'>
-            {
-              brandsList.map((brand, index) => (
+      <Section id="clients" title="Клиенты">
+        <Row className='mb-3 g-3'>
+          {
+            brandsList.big.map((brand, index) => (
+              <Col xs="12" md="6" lg="4">
                 <Brand logo={brand.logo} key={`brand-${index}`}/>
-              ))
-            }
-          </div>
-          <div className='d-flex flex-nowrap marquee'>
-            {
-              brandsList.map((brand, index) => (
-                <Brand logo={brand.logo} key={`brand-clone-${index}`}/>
-              ))
-            }
-          </div>
-        </div>
-      </div>
+              </Col>
+            ))
+          }
+        </Row>
+        <Row className='mb-3 g-2'>
+          {
+            brandsList.medium.map((brand, index) => (
+              <Col xs="4" md="3" lg="3">
+                <Brand logo={brand.logo} key={`brand-${index}`}/>
+              </Col>
+            ))
+          }
+        </Row>
+        <Row className='mb-3 g-1'>
+          {
+            brandsList.other.map((brand, index) => (
+              <Col xs="3" md="2" lg="1">
+                <Brand logo={brand.logo} key={`brand-${index}`}/>
+              </Col>
+            ))
+          }
+        </Row>
+      </Section>
       <style jsx>{`
-        .wrap {
-          margin: auto;
-          padding: 20px;
-          margin-top: -3rem;
-        }
-        .items-wrap {
-          position: relative;
-          display: flex;
-          overflow: hidden;
-          user-select: none;
-          gap: 20px;
-        }
-        .marquee {
-          animation: scroll 30s linear infinite;
-          gap: 20px;
-        }
-        
-        .items-wrap:before,
-        .items-wrap:after {
-          content: "";
-          height: 100%;
-          top: 0;
-          width: 50px;
-          position: absolute;
-          z-index: 1;
-          pointer-events: none;
-        }
-        .items-wrap:before {
-          left: 0;
-          background: linear-gradient(
-            90deg,
-            rgba(0, 0, 0, .3) 0%,
-            rgba(0, 0, 0, 0) 100%
-          );
-        }
-        .items-wrap:after {
-          right: 0;
-          background: linear-gradient(
-            90deg,
-            rgba(0, 0, 0, 0) 0%,
-            rgba(0, 0, 0, .3) 100%
-          );
-        }
-        @keyframes scroll {
-          from { transform: translateX(0) }
-          to { transform: translateX(calc(-100% - 20px)) }
-        }
       `}</style>
     </>
   )
@@ -87,17 +50,25 @@ function Brand({ logo }) {
       </figure>
       <style jsx>{`
         img {
-          height: 60px;
-          width: 100px;
+          width: 100%;
+          aspect-ratio: 2.25;
           object-fit: contain;
+          filter: saturate(0.8);
         }
         figure {
-          background-color: rgba(255,255,255,.3);
+          background-color: rgba(255,255,255,.1);
           display: flex;
           justify-content: center;
-          padding: 10px;
+          padding: 5%;
           margin-bottom: 0;
           border-radius: 5px;
+          border-top: 3px solid white;
+          border-bottom: 3px solid white;
+          cursor: pointer;
+          transition: background .3s ease-out;
+        }
+        figure:hover {
+          background-color: rgba(255,255,255,.2);
         }
       `}</style>
     </>
