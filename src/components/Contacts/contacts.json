@@ -1,30 +1,26 @@
 [
     {
-        "href": "https://vk.me/menonro",
-        "imgSrc": "/static/images/icons/social/vk.svg"
+        "title": "Discord",
+        "href": "https://discord.gg/FmteJ2Vq8z",
+        "speed": 95,
+        "icon": "/static/images/icons/social/discord.svg"
     },
     {
+        "title": "Telegram",
+        "href": "https://t.me/id294735285",
+        "speed": 90,
+        "icon": "/static/images/icons/social/telegram.svg"
+    },
+    {
+        "title": "What's App",
         "href": "https://wa.me/77014939501",
-        "imgSrc": "/static/images/icons/social/whatsapp.svg"
+        "speed": 65,
+        "icon": "/static/images/icons/social/whatsapp.svg"
     },
     {
-        "href": "skype:nitady65?chat",
-        "imgSrc": "/static/images/icons/social/skype.svg"
-    },
-    {
-        "href": "https://discord.gg/j92YZ76",
-        "imgSrc": "/static/images/icons/social/discord.svg"
-    },
-    {
-        "href": "https://telegram.im/menonro",
-        "imgSrc": "/static/images/icons/social/telegram.svg"
-    },
-    {
-        "href": "https://fb.me/menonro",
-        "imgSrc": "/static/images/icons/social/facebook.svg"
-    },
-    {
-        "href": "tel:+77054939501",
-        "imgSrc": "/static/images/icons/social/phone.svg"
+        "title": "VK",
+        "href": "https://vk.me/ld266235623",
+        "speed": 15,
+        "icon": "/static/images/icons/social/vk.svg"
     }
 ]

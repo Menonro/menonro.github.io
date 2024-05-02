@@ -5,6 +5,7 @@
         "title": "Bitrix24",
         "description": "Сертифицированный специалист Bitrix24 с большим опытом кастомизации ядра и работы с фреймворком D7. Среди них интеграция с 1С, тонкая настройка прав доступа, сложные отчёты и другие более мелкие задачи.",
         "level": "4 Сертификата",
+        "start": 2020,
         "short_description": "D7, REST, CRM, БП",
         "bg": "linear-gradient(60deg, rgb(1,32,41), rgb(46,198,246))",
         "skills": [
@@ -21,19 +22,10 @@
                 "percent": 92
             },
             {
-                "title": "БП",
+                "title": "Бизнес Процессы",
                 "percent": 94
             }
         ]
-    },
-    {
-        "icon": "/static/images/skills/webp/node.webp",
-        "preview": "/static/images/skills/webp/node_preview.webp",
-        "title": "Node.JS",
-        "description": "Имею опыт разработки Telegram-ботов, парсеров данных с обходом антиботов. Также создавал Discord-бота и небольшой прокси-микросервис для демонстрации способности разрабатывать гибкие и эффективные серверные приложения.",
-        "level": "Middle+",
-        "short_description": "Express, PM2, Discord",
-        "bg": "linear-gradient(60deg, #004D40, #8BC500)"
     },
     {
         "icon": "/static/images/skills/webp/js.webp",
@@ -41,8 +33,27 @@
         "title": "JS",
         "description": "Уверенно работаю с React и его экосистемой. Создаю интерактивные пользовательские интерфейсы. При необходимости применяю jQuery для более простых задач. Также был опыт работы с Next.js.",
         "level": "Middle+",
+        "start": 2019,
         "short_description": "React, Redux, jQuery, ESNext",
-        "bg": "linear-gradient(60deg, #BF360C, #FF8F00)"
+        "bg": "linear-gradient(60deg, #BF360C, #FF8F00)",
+        "skills": [
+            {
+                "title": "ESNext",
+                "percent": 85
+            },
+            {
+                "title": "React",
+                "percent": 93
+            },
+            {
+                "title": "jQuery",
+                "percent": 84
+            },
+            {
+                "title": "NodeJS",
+                "percent": 92
+            }
+        ]
     },
     {
         "icon": "/static/images/skills/webp/php.webp",
@@ -50,17 +61,55 @@
         "title": "PHP",
         "description": "Опытный разработчик на PHP. Реализовал более 5 проектов на Laravel с админ-панелями Laravel Orchid. Обладаю навыками написания скриптов, доработки WordPress и интеграции с различными внешними системами.",
         "level": "Middle+",
+        "start": 2019,
         "short_description": "Laravel, Orchid, Telegram Bot",
-        "bg": "linear-gradient(60deg, #212121, #787CB4)"
+        "bg": "linear-gradient(60deg, #212121, #787CB4)",
+        "skills": [
+            {
+                "title": "Laravel",
+                "percent": 88
+            },
+            {
+                "title": "Laravel Orchid",
+                "percent": 95
+            },
+            {
+                "title": "Bitrix D7 Core",
+                "percent": 75
+            },
+            {
+                "title": "Wordpress",
+                "percent": 29
+            }
+        ]
     },
     {
         "icon": "/static/images/skills/webp/sql.webp",
         "preview": "/static/images/skills/webp/sql_preview.webp",
-        "title": "Базы данных",
+        "title": "БД",
         "description": "Обладаю большим опытом работы с SQL, MySQL, а также некоторым опытом работы с PostgreSQL и Redis. Пишу как сложные кросс-запросы, так и быстрые и оптимизированные SQL-запросы. Предпочитаю ORM, но свободно работаю с чистым SQL.",
-        "level": "MIDDLE+",
+        "level": "Middle",
+        "start": 2020,
         "short_description": "SQL, MySQL, PgSQL, Redis",
-        "bg": "linear-gradient(60deg, #0D47A1, #00BDF2)"
+        "bg": "linear-gradient(60deg, #0D47A1, #00BDF2)",
+        "skills": [
+            {
+                "title": "SQL",
+                "percent": 82
+            },
+            {
+                "title": "MySQL",
+                "percent": 65
+            },
+            {
+                "title": "PgSQL",
+                "percent": 46
+            },
+            {
+                "title": "Redis",
+                "percent": 32
+            }
+        ]
     },
     {
         "icon": "/static/images/skills/webp/css.webp",
@@ -68,7 +117,54 @@
         "title": "CSS & HTML",
         "description": "Отлично владею Bootstrap и Flexbox/Grid для адаптивного дизайна. Переношу макеты из Photoshop, Figma или даже Paint. Предпочитаю SASS, БЭМ и методологию 7-1. Люблю современный дизайн.",
         "level": "Джедай вёрстки",
+        "start": 2017,
         "short_description": "Figma, Bootstrap, Grid",
-        "bg": "linear-gradient(60deg, #2061AE, #64B5F6)"
+        "bg": "linear-gradient(60deg, #2061AE, #64B5F6)",
+        "skills": [
+            {
+                "title": "Figma",
+                "percent": 42
+            },
+            {
+                "title": "Bootstrap 3-5",
+                "percent": 97
+            },
+            {
+                "title": "CSS Grid/Flexbox",
+                "percent": 83
+            },
+            {
+                "title": "SASS",
+                "percent": 92
+            }
+        ]
+    },
+    {
+        "icon": "/static/images/skills/webp/dev.webp",
+        "preview": "",
+        "title": "Разработка",
+        "description": "",
+        "level": "Middle+",
+        "start": 2017,
+        "short_description": "",
+        "bg": "",
+        "skills": [
+            {
+                "title": "Linux",
+                "percent": 40
+            },
+            {
+                "title": "Git",
+                "percent": 75
+            },
+            {
+                "title": "Docker",
+                "percent": 48
+            },
+            {
+                "title": "Kubernetes",
+                "percent": 29
+            }
+        ]
     }
 ]

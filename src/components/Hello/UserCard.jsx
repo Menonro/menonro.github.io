@@ -19,7 +19,6 @@ export default function UserCard() {
           flex-direction: column;
           align-items: flex-start;
           max-width: 100%;
-          padding: 30px;
         }
         div {
           margin-top: 30px;
@@ -29,7 +28,7 @@ export default function UserCard() {
         }
         img {
           max-width: 100%;
-          width: 240px;
+          width: 200px;
           border-radius: 50%;
         }
       `}</style>

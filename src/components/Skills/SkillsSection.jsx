@@ -1,56 +1,24 @@
 import React from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
 
-import { SkillsContextProvider } from '../../contexts/SkillsContext'
+import skillsList from '../../data/skills.json'
+import SkillBlock from './SkillBlock'
 
-import SkillsList from './SkillsList'
-import SkillsSlider from './SkillsSlider'
-
-export default function SKillsSection() {
-  return (<SkillsContextProvider>
-    <section>
-      <div className="left">
-        <SkillsList />
-      </div>
-      <div className="right">
-        <SkillsSlider />
-      </div>
-      <style jsx>{`
-        section {
-          display: grid;
-          min-height: 100vh;
-          min-height: 100dvh;
-          max-width: 100%;
-          grid-template-columns: minmax(25%, 400px) 65%;
-          grid-template-rows: 1fr auto 1fr;
-          justify-content: center;
-          justify-items: center;
-          align-items: center;
-          padding: 0 15px;
-          grid-template-areas: "empty1 empty1" "left right" "empty2 empty2";
+export default function SkillsSection() {
+  return (
+    <Container className="my-5">
+      <h2 className='mb-4' id='skills'>
+        Навыки
+      </h2>
+      <Row className='g-5'>
+        {
+          skillsList.map(skill => (
+            <Col xs="12" md="6" lg="4" key={`skill-block-${skill.title}`}>
+              <SkillBlock {...skill}/>
+            </Col>
+          ))
         }
-        .left {
-          padding: 15px;
-          grid-area: left;
-        }
-        .right {
-          grid-area: right;
-          position: relative;
-          padding: 15px;
-          max-width: 100%;
-          max-height: 100%;
-        }
-        @media screen and (max-width: 991px) {
-          section {
-            grid-template-columns: 100%;
-            grid-template-rows: 1fr auto auto 1fr;
-            grid-template-areas: "empty1" "left" "right" "empty2";
-            justify-items: stretch;
-          }
-          .left {
-          }
-        }
-      `}</style>
-    </section>
-  </SkillsContextProvider>
+      </Row>
+    </Container>
   )
 }

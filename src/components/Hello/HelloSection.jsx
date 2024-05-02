@@ -4,7 +4,7 @@ import UserCard from './UserCard'
 
 export default function HelloSection() {
   return (
-    <Container>
+    <Container id='main'>
       <UserCard />
     </Container>
   )

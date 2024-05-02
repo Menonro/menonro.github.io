@@ -28,14 +28,14 @@ export default function Menu() {
         }}
         >
         <Container fluid className='g-5'>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={Link} to="/#main">
             <h2>Menonro</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)}/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/">Компетенции</Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/contacts">Контакты</Nav.Link>
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/#skills">Навыки</Nav.Link>
+              <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/#contacts">Контакты</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

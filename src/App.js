@@ -10,11 +10,13 @@ import Form from './pages/Form';
 import Landing from './pages/Landing';
 import Menu from './layout/Menu';
 import Page from './layout/Page';
+import ScrollToAnchor from './layout/ScrollToAnchor';
 
 function MyApp() {
   const location = useLocation();
 
   return <>
+    <ScrollToAnchor />
     <Menu/>
     <Layout>
       <Routes location={location} key={location.pathname}>
