@@ -14,7 +14,7 @@ export default function ContactsSection() {
       <Row className='g-5'>
         {
           contactsList.map((contact, index) => (
-            <Col xs="12" md="6" lg="3" key={`contact-${index}`}>
+            <Col xs="12" md="6" lg key={`contact-${index}`}>
               <ContactBlock {...contact} index={ index }/>
             </Col>
           ))
@@ -26,10 +26,8 @@ export default function ContactsSection() {
 
 function ContactBlock({ title, href, icon, speed, index }) {
   return (
-    <div>
-      <PercentLine percent={speed} index={ index }>
-        <BlockImgTitle title={ title } icon={ icon } href={ href }/>
-      </PercentLine>
-    </div>
+    <PercentLine percent={100} index={ index }>
+      <BlockImgTitle title={ title } icon={ icon } href={ href }/>
+    </PercentLine>
   )
 }

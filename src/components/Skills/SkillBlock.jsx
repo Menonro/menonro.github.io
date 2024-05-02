@@ -7,7 +7,6 @@ export default function SkillBlock({ title, icon, level, start, skills = [] }) {
     <div className='mb-4'>
       <BlockImgTitle title={ title } icon={ icon } />
       <SkillLevel level={ level } start={ start }/>
-      <hr className="w-100" />
       {
         skills.map((skill, index) => <SkillRow {...skill} index={ index } key={`skill-row-${index}`}/>)
       }
@@ -18,7 +17,7 @@ export default function SkillBlock({ title, icon, level, start, skills = [] }) {
 const nowYear = (new Date).getFullYear()
 function SkillLevel({ level, start }) {
   return (
-    <div className="d-flex justify-content-between">
+    <div className="d-flex justify-content-between h5 my-3">
       <span>{ level }</span>
       <span>{ nowYear - start }+ лет</span>
     </div>
@@ -28,7 +27,16 @@ function SkillLevel({ level, start }) {
 function SkillRow({ title, percent, index }) {
   return (
     <PercentLine percent={ percent } index={ index }>
-      <span className='h6'>{ title }</span>
+      <div className="d-flex justify-content-between">
+        <span className='h6'>{ title }</span>
+        <span className='h6'>{ getLevel(percent) }</span>
+      </div>
     </PercentLine>
   )
+}
+
+function getLevel(percent) {
+  if (percent>=70) return 'Профи'
+  if (percent>=40) return 'Базовый'
+  return 'Ознакомлен'
 }

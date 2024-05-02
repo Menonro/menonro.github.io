@@ -16,11 +16,5 @@
         "href": "https://wa.me/77014939501",
         "speed": 65,
         "icon": "/static/images/icons/social/whatsapp.svg"
-    },
-    {
-        "title": "VK",
-        "href": "https://vk.me/ld266235623",
-        "speed": 15,
-        "icon": "/static/images/icons/social/vk.svg"
     }
 ]
