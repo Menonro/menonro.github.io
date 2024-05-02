@@ -20,7 +20,7 @@ export default function BrandSection() {
         <Row className='mb-3 g-2'>
           {
             brandsList.medium.map((brand, index) => (
-              <Col xs="4" md="3" lg="3">
+              <Col xs="6" md="3" lg="3">
                 <Brand logo={brand.logo} key={`brand-${index}`}/>
               </Col>
             ))
@@ -29,7 +29,7 @@ export default function BrandSection() {
         <Row className='mb-3 g-1'>
           {
             brandsList.other.map((brand, index) => (
-              <Col xs="3" md="2" lg="1">
+              <Col xs="4" md="2" lg="1">
                 <Brand logo={brand.logo} key={`brand-${index}`}/>
               </Col>
             ))
