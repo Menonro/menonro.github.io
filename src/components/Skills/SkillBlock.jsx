@@ -1,6 +1,6 @@
 import React from 'react'
-import BlockImgTitle from '../Typographic/BlockImgTitle'
-import PercentLine from '../Typographic/PercentLine'
+import BlockImgTitle from '../Base/BlockImgTitle'
+import PercentLine from '../Base/PercentLine'
 
 export default function SkillBlock({ title, icon, level, start, skills = [] }) {
   return (
@@ -36,7 +36,7 @@ function SkillRow({ title, percent, index }) {
 }
 
 function getLevel(percent) {
-  if (percent>=70) return 'Профи'
-  if (percent>=40) return 'Базовый'
-  return 'Ознакомлен'
+  if (percent>=80) return 'Senior'
+  if (percent>=45) return 'Middle'
+  return 'Junior'
 }

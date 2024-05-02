@@ -1,15 +1,13 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Row } from 'react-bootstrap'
 
 import skillsList from '../../data/skills.json'
 import SkillBlock from './SkillBlock'
+import Section from '../Base/Section'
 
 export default function SkillsSection() {
   return (
-    <Container className="my-5">
-      <h2 className='mb-4' id='skills'>
-        Навыки
-      </h2>
+    <Section id='skills' title='Навыки'>
       <Row className='g-5'>
         {
           skillsList.map(skill => (
@@ -19,6 +17,6 @@ export default function SkillsSection() {
           ))
         }
       </Row>
-    </Container>
+    </Section>
   )
 }

@@ -1,12 +1,14 @@
 import React from 'react'
 import SkillsSection from '../components/Skills/SkillsSection'
-import HelloSection from '../components/Hello/HelloSection'
+import FirstSection from '../components/First/FirstSection'
 import ContactsSection from '../components/Contacts/ContactsSection'
+import BrandSection from '../components/Brands/BrandSection'
 
 export default function Landing() {
   return (
     <>
-      <HelloSection />
+      <FirstSection />
+      <BrandSection />
       <SkillsSection />
       <ContactsSection />
     </>

@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 export default function Menu() {
   const [expanded, setExpanded] = useState(false);
-
+  const close = () => setExpanded(false)
   return (
     <motion.div
       initial={{
@@ -29,13 +29,15 @@ export default function Menu() {
         >
         <Container fluid className='g-5'>
           <Navbar.Brand as={Link} to="/#main">
-            <h2>Menonro</h2>
+            <h2 className='mb-0'>Menonro</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)}/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/#skills">Навыки</Nav.Link>
-              <Nav.Link onClick={() => setExpanded(false)} as={Link} to="/#contacts">Контакты</Nav.Link>
+              <Nav.Link onClick={close} as={Link} to="/#clients">Клиенты</Nav.Link>
+              <Nav.Link onClick={close} as={Link} to="/#skills">Навыки</Nav.Link>
+              <Nav.Link onClick={close} as={Link} to="/#contacts">Контакты</Nav.Link>
+              {/* <Nav.Link onClick={close} as={Link} to="/#contacts">Контакты</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

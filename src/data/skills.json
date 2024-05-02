@@ -39,19 +39,19 @@
         "skills": [
             {
                 "title": "ESNext",
-                "percent": 85
+                "percent": 82
             },
             {
                 "title": "React",
-                "percent": 93
+                "percent": 88
             },
             {
                 "title": "jQuery",
-                "percent": 84
+                "percent": 78
             },
             {
                 "title": "NodeJS",
-                "percent": 92
+                "percent": 80
             }
         ]
     },
@@ -67,14 +67,14 @@
         "skills": [
             {
                 "title": "Laravel",
-                "percent": 88
+                "percent": 84
             },
             {
                 "title": "Laravel Orchid",
-                "percent": 95
+                "percent": 92
             },
             {
-                "title": "Bitrix D7 Core",
+                "title": "Bitrix D7",
                 "percent": 75
             },
             {
@@ -127,15 +127,15 @@
             },
             {
                 "title": "Bootstrap 3-5",
-                "percent": 97
+                "percent": 95
             },
             {
                 "title": "CSS Grid/Flexbox",
-                "percent": 83
+                "percent": 95
             },
             {
                 "title": "SASS",
-                "percent": 92
+                "percent": 86
             }
         ]
     },
