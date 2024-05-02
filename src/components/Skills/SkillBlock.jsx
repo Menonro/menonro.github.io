@@ -28,7 +28,7 @@ function SkillLevel({ level, start }) {
 function SkillRow({ title, percent, index }) {
   return (
     <PercentLine percent={ percent } index={ index }>
-      <h6>{ title }</h6>
+      <span className='h6'>{ title }</span>
     </PercentLine>
   )
 }
