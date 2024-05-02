@@ -30,6 +30,7 @@ export default function BrandSection() {
         .wrap {
           margin: auto;
           padding: 20px;
+          margin-top: -3rem;
         }
         .items-wrap {
           position: relative;
