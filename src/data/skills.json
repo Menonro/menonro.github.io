@@ -3,10 +3,28 @@
         "icon": "/static/images/skills/webp/b24.webp",
         "preview": "/static/images/skills/webp/b24_preview.webp",
         "title": "Bitrix24",
-        "description": "Продвинутый специалист по Bitrix с большим опытом кастомизации ядра и работы с фреймворком D7. Успешно выполнил задач на более чем 500 часов для крупного заказчика, включая сложные интеграции с 1С и тонкую настройку прав доступа для портала с 2000+ активными пользователями.",
+        "description": "Сертифицированный специалист Bitrix24 с большим опытом кастомизации ядра и работы с фреймворком D7. Среди них интеграция с 1С, тонкая настройка прав доступа, сложные отчёты и другие более мелкие задачи.",
         "level": "4 Сертификата",
         "short_description": "D7, REST, CRM, БП",
-        "bg": "linear-gradient(60deg, rgb(1,32,41), rgb(46,198,246)"
+        "bg": "linear-gradient(60deg, rgb(1,32,41), rgb(46,198,246))",
+        "skills": [
+            {
+                "title": "D7",
+                "percent": 75
+            },
+            {
+                "title": "REST",
+                "percent": 83
+            },
+            {
+                "title": "CRM",
+                "percent": 92
+            },
+            {
+                "title": "БП",
+                "percent": 94
+            }
+        ]
     },
     {
         "icon": "/static/images/skills/webp/node.webp",

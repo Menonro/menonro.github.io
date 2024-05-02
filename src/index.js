@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter } from "react-router-dom";
 import App from './App';
 
-import changeFav from './utils/favChanger'
-import loadFont from './utils/loadFont'
+// import changeFav from './utils/favChanger'
+// import loadFont from './utils/loadFont'
 
 import reportWebVitals from './reportWebVitals';
 
 // changeFav()
-loadFont("NEXT ART", "/static/fonts/next_art/woff.css", "/static/fonts/next_art/woff2.css");
+// loadFont("NEXT ART", "/static/fonts/next_art/woff.css", "/static/fonts/next_art/woff2.css");
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

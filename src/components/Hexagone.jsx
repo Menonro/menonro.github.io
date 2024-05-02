@@ -8,7 +8,6 @@ export default function Hexagone({ children, text, style = {}, hide = false }) {
         .hex {
           position: relative;
           text-align: center;
-          width: 100%;
           aspect-ratio: 100/86.75;
           overflow: hidden;
           transform: rotate(0deg) translate(0%, 0%);
