@@ -11,7 +11,7 @@ export default function BrandSection() {
         <Row className='mb-4 g-2'>
           {
             brandsList.big.map((brand, index) => (
-              <Col xs="12" md="6" lg="4">
+              <Col xs="12" md="4">
                 <Brand logo={brand.logo} key={`brand-${index}`}/>
               </Col>
             ))

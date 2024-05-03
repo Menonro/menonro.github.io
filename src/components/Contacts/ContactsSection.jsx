@@ -12,7 +12,7 @@ export default function ContactsSection() {
       <Row className='g-5'>
         {
           contactsList.map((contact, index) => (
-            <Col xs="12" md="6" lg key={`contact-${index}`}>
+            <Col xs="12" md key={`contact-${index}`}>
               <ContactBlock {...contact} index={ index }/>
             </Col>
           ))

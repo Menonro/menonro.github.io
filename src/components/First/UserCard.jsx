@@ -37,7 +37,7 @@ export default function UserCard() {
           width: 200px;
           border-radius: 50%;
         }
-        @media screen and (max-width: 767px) {
+        @media screen and (max-width: 991px) {
           article {
             text-align: center;
             align-items: center;

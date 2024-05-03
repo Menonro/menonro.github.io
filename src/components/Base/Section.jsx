@@ -8,6 +8,13 @@ export default function Section({ title = '', id = '', children }) {
         { title }
       </h2>
       { children }
+      <style jsx>{`
+        @media screen and (max-width: 991px) {
+          h2 {
+            text-align: center;
+          }
+        }
+      `}</style>
     </Container>
   )
 }
