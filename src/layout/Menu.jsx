@@ -29,7 +29,7 @@ export default function Menu() {
         }}
         >
         <Container fluid className='g-5'>
-          <Navbar.Brand as={Link} to="/#main">
+          <Navbar.Brand onClick={close} as={Link} to="/#main">
             <h2 className='mb-0'>Menonro</h2>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)}/>
@@ -38,7 +38,6 @@ export default function Menu() {
               <Nav.Link onClick={close} as={Link} to="/#skills">Навыки</Nav.Link>
               <Nav.Link onClick={close} as={Link} to="/#clients">Клиенты</Nav.Link>
               <Nav.Link onClick={close} as={Link} to="/#contacts">Контакты</Nav.Link>
-              {/* <Nav.Link onClick={close} as={Link} to="/#contacts">Контакты</Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
