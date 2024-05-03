@@ -9,7 +9,7 @@ import Section from '../Base/Section'
 export default function ContactsSection() {
   return (
     <Section id="contacts" title="Контакты">
-      <Row className='g-2'>
+      <Row>
         {
           contactsList.map((contact, index) => (
             <Col xs="12" md="4" key={`contact-${index}`}>
@@ -24,7 +24,7 @@ export default function ContactsSection() {
 
 function ContactBlock({ title, href, icon, index }) {
   return (
-    <PercentLine percent={100} index={ index }>
+    <PercentLine index={ index }>
       <BlockImgTitle title={ title } icon={ icon } href={ href }/>
     </PercentLine>
   )

@@ -55,7 +55,7 @@ function UserData() {
       <Row className='g-2 mt-2'>
         {
           contactsList.map(({ icon, href }, index) => (
-            <Col xs>
+            <Col xs key={`${icon}-${index}`}>
               <a href={ href } target="_blank" rel="noopener noreferrer">
                 <img className='icon' src={ icon } alt="" />
               </a>

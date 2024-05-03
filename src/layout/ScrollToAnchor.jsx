@@ -8,9 +8,8 @@ function ScrollToAnchor() {
     if (location.hash) {
       lastHash.current = location.hash.slice(1);
     }
-
-    if (lastHash.current && document.getElementById(lastHash.current)) {
-      setTimeout(() => {
+    setTimeout(() => {
+      if (lastHash.current && document.getElementById(lastHash.current)) {
         const item = document
           .getElementById(lastHash.current)
         if (!item) return
@@ -19,8 +18,8 @@ function ScrollToAnchor() {
           top: item.offsetTop - 100
         })
         lastHash.current = '';
-      }, 100);
-    }
+      }
+    }, 100);
   }, [location]);
 
   return null;

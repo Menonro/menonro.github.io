@@ -1,95 +1,394 @@
 {
-    "big": [
+    "main": [
         {
-            "logo": "kinder.svg"
+            "name": "Kinder",
+            "logo": "kinder.svg",
+            "works": [
+                {
+                    "year": 2020,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2021,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2022,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2022,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2022,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2022,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2023,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2023,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "rafaello.webp"
+            "name": "HomeCreditBank",
+            "logo": "homecredit.svg",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2018,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2018,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "homecredit.svg"
-        }
-    ],
-    "medium": [
-        {
-            "logo": "bioc.webp"
+            "name": "ВыбериРадио",
+            "logo": "vr.webp",
+            "works": [
+                {
+                    "year": 2021,
+                    "name": "Внедрение CRM"
+                },
+                {
+                    "year": 2022,
+                    "name": "Внедрение 1C"
+                },
+                {
+                    "year": 2023,
+                    "name": "Внедрение CRM"
+                },
+                {
+                    "year": 2024,
+                    "name": "Внедрение CRM"
+                }
+            ]
         },
         {
-            "logo": "foodmaster.webp"
+            "name": "BioC",
+            "logo": "bioc.webp",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "lays.webp"
+            "name": "Foodmaster",
+            "logo": "foodmaster.webp",
+            "works": [
+                {
+                    "year": 2019,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2020,
+                    "name": "Промо сайт"
+                },
+                {
+                    "year": 2020,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "cheetos.webp"
+            "name": "Lays",
+            "logo": "lays.webp",
+            "works": [
+                {
+                    "year": 2021,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "ht.svg"
+            "name": "Cheetos",
+            "logo": "cheetos.webp",
+            "works": [
+                {
+                    "year": 2023,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "gallery.webp"
+            "name": "Хрусteam",
+            "logo": "ht.svg",
+            "works": [
+                {
+                    "year": 2023,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "vitra.svg"
+            "name": "Gallery",
+            "logo": "gallery.webp",
+            "works": [
+                {
+                    "year": 2021,
+                    "name": "Внедрение CRM"
+                },
+                {
+                    "year": 2022,
+                    "name": "Внедрение CRM"
+                },
+                {
+                    "year": 2023,
+                    "name": "Интеграция с CRM"
+                }
+            ]
         },
         {
-            "logo": "vr.webp"
+            "name": "Vitra",
+            "logo": "vitra.svg",
+            "works": [
+                {
+                    "year": 2022,
+                    "name": "Анализ бизнес процессов"
+                }
+            ]
+        },
+        {
+            "name": "Rafaello",
+            "logo": "rafaello.webp",
+            "works": [
+                {
+                    "year": 2020,
+                    "name": "Промо сайт"
+                }
+            ]
         }
     ],
     "other": [
         {
-            "logo": "afec.webp"
+            "name": "АФЭК",
+            "logo": "afec.webp",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Сайт HTML"
+                },
+                {
+                    "year": 2019,
+                    "name": "Сайт KeystoneJS"
+                },
+                {
+                    "year": 2022,
+                    "name": "Сайт Laravel"
+                }
+            ]
         },
         {
-            "logo": "astore.svg"
+            "name": "ASD",
+            "logo": "asd.webp",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Сайт"
+                }
+            ]
         },
         {
-            "logo": "bitrun.webp"
+            "name": "AStore",
+            "logo": "astore.svg",
+            "works": [
+                {
+                    "year": 2020,
+                    "name": "Сайт Laravel"
+                }
+            ]
         },
         {
-            "logo": "brainberry.svg"
+            "name": "BitRun",
+            "logo": "bitrun.webp",
+            "works": [
+                {
+                    "year": 2020,
+                    "name": "Партнёр Б24"
+                },
+                {
+                    "year": 2021,
+                    "name": "Партнёр Б24"
+                },
+                {
+                    "year": 2022,
+                    "name": "Партнёр Б24"
+                },
+                {
+                    "year": 2023,
+                    "name": "Партнёр Б24"
+                },
+                {
+                    "year": 2024,
+                    "name": "Сайт Laravel"
+                }
+            ]
         },
         {
-            "logo": "dzungla.svg"
+            "name": "BrainBerry",
+            "logo": "brainberry.svg",
+            "works": [
+                {
+                    "year": 2023,
+                    "name": "Сайт Laravel"
+                }
+            ]
         },
         {
-            "logo": "karaoke.svg"
+            "name": "Dzungla",
+            "logo": "dzungla.svg",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Сайт Next+React"
+                }
+            ]
         },
         {
-            "logo": "markway.webp"
+            "name": "KaraokeBox",
+            "logo": "karaoke.svg",
+            "works": [
+                {
+                    "year": 2023,
+                    "name": "Сайт Laravel"
+                }
+            ]
         },
         {
-            "logo": "nadex.webp"
+            "name": "MarkWay",
+            "logo": "markway.webp",
+            "works": [
+                {
+                    "year": 2023,
+                    "name": "Установка вёрстки на WP"
+                }
+            ]
         },
         {
-            "logo": "ohana.svg"
+            "name": "NadexService",
+            "logo": "nadex.webp",
+            "works": [
+                {
+                    "year": 2023,
+                    "name": "Внедрение Б24"
+                }
+            ]
         },
         {
-            "logo": "osnova.webp"
+            "name": "OhanaFitness",
+            "logo": "ohana.svg",
+            "works": [
+                {
+                    "year": 2022,
+                    "name": "Перенос данных Б24"
+                }
+            ]
         },
         {
-            "logo": "spasibo.webp"
+            "name": "OsnovaMarket",
+            "logo": "osnova.webp",
+            "works": [
+                {
+                    "year": 2021,
+                    "name": "Перенос данных Б24"
+                }
+            ]
         },
         {
-            "logo": "renas.webp"
+            "name": "SpasiboCatering",
+            "logo": "spasibo.webp",
+            "works": [
+                {
+                    "year": 2022,
+                    "name": "Интеграция со СберAPI"
+                }
+            ]
         },
         {
-            "logo": "rofas.svg"
+            "name": "Renas",
+            "logo": "renas.webp",
+            "works": [
+                {
+                    "year": 2024,
+                    "name": "Сайт"
+                }
+            ]
         },
         {
-            "logo": "solva.svg"
+            "name": "Rofas",
+            "logo": "rofas.svg",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Доработка сайта"
+                }
+            ]
         },
         {
-            "logo": "ys.svg"
+            "name": "Solva",
+            "logo": "solva.svg",
+            "works": [
+                {
+                    "year": 2020,
+                    "name": "Сайт"
+                }
+            ]
         },
         {
-            "logo": "somersby.webp"
+            "name": "YanaSvetlova",
+            "logo": "ys.svg",
+            "works": [
+                {
+                    "year": 2022,
+                    "name": "Доработка Б24"
+                }
+            ]
         },
         {
-            "logo": "vostochnaya.webp"
+            "name": "Somersby",
+            "logo": "somersby.webp",
+            "works": [
+                {
+                    "year": 2020,
+                    "name": "Промо сайт"
+                }
+            ]
         },
         {
-            "logo": "somsom.webp"
+            "name": "Vostochnaya",
+            "logo": "vostochnaya.webp",
+            "works": [
+                {
+                    "year": 2018,
+                    "name": "Сайт"
+                }
+            ]
+        },
+        {
+            "name": "SomSomich",
+            "logo": "somsom.webp",
+            "works": [
+                {
+                    "year": 2022,
+                    "name": "Интеграция WP и Б24"
+                }
+            ]
         }
     ]
 }

@@ -2,7 +2,7 @@ import { motion, useInView } from 'framer-motion'
 import React, { useRef } from 'react'
 
 
-export default function PercentLine({ children, percent = 100, index }) {
+export default function PercentLine({ children, percent = 0, index, size = 4 }) {
   const item = useRef()
   const isView = useInView(item, {
     once: true,
@@ -22,7 +22,7 @@ export default function PercentLine({ children, percent = 100, index }) {
             content: '';
             position: absolute;
             bottom: 5px;
-            height: 4px;
+            height: ${size}px;
             left: 0;
             border-radius: 10px;
             background-color: white;

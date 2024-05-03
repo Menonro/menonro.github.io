@@ -36,7 +36,7 @@ export default function Menu() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link onClick={close} as={Link} to="/#skills">Навыки</Nav.Link>
-              <Nav.Link onClick={close} as={Link} to="/#clients">Клиенты</Nav.Link>
+              <Nav.Link onClick={close} as={Link} to="/clients">Клиенты</Nav.Link>
               <Nav.Link onClick={close} as={Link} to="/#contacts">Контакты</Nav.Link>
             </Nav>
           </Navbar.Collapse>

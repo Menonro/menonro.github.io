@@ -9,8 +9,7 @@ import Menu from './layout/Menu';
 import './styles/global.sass'
 
 import Landing from './pages/Landing';
-import Form from './pages/Form';
-import Page from './layout/Page';
+import Clients from './pages/Clients';
 
 function MyApp() {
   return <>
@@ -19,7 +18,7 @@ function MyApp() {
     <Layout>
       <Routes>
         <Route index element={<Landing />} />
-        <Route path="form" element={<Page><Form /></Page>} />
+        <Route path="/clients" element={<Clients />} />
       </Routes>
     </Layout>
     <Background/>
