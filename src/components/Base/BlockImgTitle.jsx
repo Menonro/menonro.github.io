@@ -5,7 +5,7 @@ export default function BlockImgTitle({ title, icon, href = false }) {
     <IsLink href={ href }>
       <div>
         <img src={ icon } alt={ `Icon ${title}` } />
-        <h3>{ title }</h3>
+        <h4>{ title }</h4>
         <style jsx>{`
           div {
             display: flex;
@@ -17,11 +17,29 @@ export default function BlockImgTitle({ title, icon, href = false }) {
             height: 60px;
             object-fit: contain;
           }
-          h3 {
+          h4 {
             margin-top: 5px;
             margin-bottom: 0;
-            margin-left: 15px;
             line-height: 1;
+          }
+          @media screen and (min-width: 768px) {
+            h4 {
+              margin-left: 15px;
+            }
+          }
+          @media screen and (max-width: 767px) {
+            div {
+              justify-content: center;
+              position: relative;
+              padding-left: 50px;
+              padding-right: 50px;
+            }
+            img {
+              position: absolute;
+              left: 5px;
+              height: 40px;
+              width: 40px;
+            }
           }
         `}</style>
       </div>

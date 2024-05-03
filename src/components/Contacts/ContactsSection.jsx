@@ -9,10 +9,10 @@ import Section from '../Base/Section'
 export default function ContactsSection() {
   return (
     <Section id="contacts" title="Контакты">
-      <Row className='g-5'>
+      <Row className='g-2'>
         {
           contactsList.map((contact, index) => (
-            <Col xs="12" md key={`contact-${index}`}>
+            <Col xs="12" md="4" key={`contact-${index}`}>
               <ContactBlock {...contact} index={ index }/>
             </Col>
           ))
