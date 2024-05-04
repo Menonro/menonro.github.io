@@ -18,8 +18,8 @@ export default function BrandSection() {
         <Row className='mb-4 g-2'>
           {
             brands.map((brand, index) => (
-              <Col xs="12" md="6" lg="3" key={`brand-${index}-${brand.logo}`} className='mb-3'>
-                <Link to={`/clients#${brand.name}`}>
+              <Col xs="12" md="6" lg="3" key={`brand-${index}-${brand.id}`} className='mb-3'>
+                <Link to={`/clients#${brand.id}`}>
                   <Brand { ...brand }/>
                 </Link>
               </Col>

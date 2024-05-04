@@ -4,9 +4,9 @@ import PercentLine from '../Base/PercentLine'
 import BrandImg from './BrandImg'
 import MinMaxYears from './MinMaxYears'
 
-export default function BrandBlock({ logo, name, works }) {
+export default function BrandBlock({ id, logo, name, description, works }) {
   return (
-    <div className="mb-5" id={name}>
+    <div className="mb-5" id={id}>
       <PercentLine>
         <Row>
           <Col xs="12" md="4">
@@ -15,38 +15,56 @@ export default function BrandBlock({ logo, name, works }) {
             </div>
           </Col>
           <Col xs="12" md="8">
-            <h4 className='mb-3'>{ name }</h4>
-            <div className="d-flex flex-column mb-4">
-              <div className="d-flex justify-content-between">
-                <span className='h6'>Проектов</span>
-                <span className='h6'>
-                  { works.length }
-                </span>
-              </div>
-              <div className="d-flex justify-content-between">
-                <span className='h6'>Период работы</span>
-                <span className='h6'>
-                  <MinMaxYears works={works}/>
-                </span>
+            <div className="d-flex flex-column justify-content-between h-100">
+              <h4 className='mb-3'>{ name }</h4>
+              <div className="d-flex flex-column">
+                <div className="d-flex justify-content-between">
+                  <span className='h6'>Проектов</span>
+                  <span className='h6'>
+                    { works.length }
+                  </span>
+                </div>
+                <div className="d-flex justify-content-between">
+                  <span className='h6'>Период работы</span>
+                  <span className='h6'>
+                    <MinMaxYears works={works}/>
+                  </span>
+                </div>
               </div>
             </div>
           </Col>
         </Row>
       </PercentLine>
-      <Row className='mt-3'>
+      <p>
+        { description }
+      </p>
+      <div className='grid'>
         {
           works.map(({ year, name }, index) => (
-            <Col xs="6" lg="4" className='mb-3'>
-              <Timeline title={year} key={`work-block-${name}-${year}-${index}`}>
-                { name }
-              </Timeline>
-            </Col>
+            <Timeline title={year} key={`work-block-${name}-${year}-${index}`}>
+              { name }
+            </Timeline>
           ))
         }
-      </Row>
+      </div>
       <style jsx>{`
         img {
           max-width: 100%;
+        }
+        .grid {
+          display: grid;
+          gap: 0.5rem;
+          grid-template-columns: repeat(3, 1fr);
+        }
+        @media screen and (max-width: 575px) {
+          .grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        @media screen and (max-width: 359px) {
+          .grid {
+            grid-template-columns: 1fr;
+          }
         }
       `}</style>
     </div>
@@ -56,10 +74,13 @@ export default function BrandBlock({ logo, name, works }) {
 function Timeline({ children, title }) {
   return <div>
     <h5>{ title }</h5>
-    { children }
+    <p>
+      { children }
+    </p>
     <style jsx>{`
       div {
-        border-bottom: 2px solid rgba(255,255,255,.5);
+        border-bottom: 1px solid rgba(255,255,255,.5);
+        margin-bottom: 10px;
       }  
     `}</style>
   </div>
