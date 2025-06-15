@@ -1,29 +1,29 @@
 [
     {
-        "icon": "/static/images/skills/webp/b24.webp",
-        "preview": "/static/images/skills/webp/b24_preview.webp",
-        "title": "Bitrix24",
-        "description": "Сертифицированный специалист Bitrix24 с большим опытом кастомизации ядра и работы с фреймворком D7. Среди них интеграция с 1С, тонкая настройка прав доступа, сложные отчёты и другие более мелкие задачи.",
-        "level": "4 Сертификата",
-        "start": 2020,
-        "short_description": "D7, REST, CRM, БП",
-        "bg": "linear-gradient(60deg, rgb(1,32,41), rgb(46,198,246))",
+        "icon": "/static/images/skills/webp/php.webp",
+        "preview": "/static/images/skills/webp/php_preview.webp",
+        "title": "PHP",
+        "description": "Опытный разработчик на PHP. Реализовал более 5 проектов на Laravel с админ-панелями Laravel Orchid. Обладаю навыками написания скриптов, доработки WordPress и интеграции с различными внешними системами.",
+        "level": "Middle+",
+        "start": 2019,
+        "short_description": "Laravel, Orchid, Telegram Bot",
+        "bg": "linear-gradient(60deg, #212121, #787CB4)",
         "skills": [
             {
-                "title": "D7",
-                "percent": 75
+                "title": "PHP 8.0+",
+                "percent": 82
             },
             {
-                "title": "REST",
-                "percent": 83
-            },
-            {
-                "title": "CRM",
+                "title": "Laravel",
                 "percent": 92
             },
             {
-                "title": "Бизнес Процессы",
-                "percent": 94
+                "title": "Laravel Orchid",
+                "percent": 75
+            },
+            {
+                "title": "Bitrix D7",
+                "percent": 75
             }
         ]
     },
@@ -42,12 +42,12 @@
                 "percent": 82
             },
             {
-                "title": "React",
-                "percent": 88
+                "title": "Vue/Nuxt",
+                "percent": 85
             },
             {
-                "title": "jQuery",
-                "percent": 78
+                "title": "React",
+                "percent": 70
             },
             {
                 "title": "NodeJS",
@@ -56,30 +56,58 @@
         ]
     },
     {
-        "icon": "/static/images/skills/webp/php.webp",
-        "preview": "/static/images/skills/webp/php_preview.webp",
-        "title": "PHP",
-        "description": "Опытный разработчик на PHP. Реализовал более 5 проектов на Laravel с админ-панелями Laravel Orchid. Обладаю навыками написания скриптов, доработки WordPress и интеграции с различными внешними системами.",
+        "icon": "/static/images/skills/webp/git.svg",
+        "preview": "",
+        "title": "DevOps",
+        "description": "",
         "level": "Middle+",
-        "start": 2019,
-        "short_description": "Laravel, Orchid, Telegram Bot",
-        "bg": "linear-gradient(60deg, #212121, #787CB4)",
+        "start": 2023,
+        "short_description": "",
+        "bg": "",
         "skills": [
             {
-                "title": "Laravel",
-                "percent": 84
+                "title": "Docker",
+                "percent": 79
             },
             {
-                "title": "Laravel Orchid",
-                "percent": 92
-            },
-            {
-                "title": "Bitrix D7",
+                "title": "GitLab & CI/CD",
                 "percent": 75
             },
             {
-                "title": "Wordpress",
-                "percent": 29
+                "title": "Linux",
+                "percent": 55
+            },
+            {
+                "title": "Kubernetes",
+                "percent": 30
+            }
+        ]
+    },
+    {
+        "icon": "/static/images/skills/webp/css.webp",
+        "preview": "/static/images/skills/webp/css_preview.webp",
+        "title": "CSS & HTML",
+        "description": "Отлично владею Bootstrap и Flexbox/Grid для адаптивного дизайна. Переношу макеты из Photoshop, Figma или даже Paint. Предпочитаю SASS, БЭМ и методологию 7-1. Люблю современный дизайн.",
+        "level": "Джедай вёрстки",
+        "start": 2017,
+        "short_description": "Figma, Bootstrap, Grid",
+        "bg": "linear-gradient(60deg, #2061AE, #64B5F6)",
+        "skills": [
+            {
+                "title": "Bootstrap 3-5",
+                "percent": 92
+            },
+            {
+                "title": "CSS Grid/Flexbox",
+                "percent": 92
+            },
+            {
+                "title": "Quasar UI",
+                "percent": 70
+            },
+            {
+                "title": "SASS",
+                "percent": 82
             }
         ]
     },
@@ -95,75 +123,19 @@
         "skills": [
             {
                 "title": "SQL",
-                "percent": 82
+                "percent": 76
+            },
+            {
+                "title": "PostgreSQL",
+                "percent": 65
             },
             {
                 "title": "MySQL",
                 "percent": 65
             },
             {
-                "title": "PgSQL",
-                "percent": 46
-            },
-            {
                 "title": "Redis",
-                "percent": 32
-            }
-        ]
-    },
-    {
-        "icon": "/static/images/skills/webp/css.webp",
-        "preview": "/static/images/skills/webp/css_preview.webp",
-        "title": "CSS & HTML",
-        "description": "Отлично владею Bootstrap и Flexbox/Grid для адаптивного дизайна. Переношу макеты из Photoshop, Figma или даже Paint. Предпочитаю SASS, БЭМ и методологию 7-1. Люблю современный дизайн.",
-        "level": "Джедай вёрстки",
-        "start": 2017,
-        "short_description": "Figma, Bootstrap, Grid",
-        "bg": "linear-gradient(60deg, #2061AE, #64B5F6)",
-        "skills": [
-            {
-                "title": "Figma",
-                "percent": 42
-            },
-            {
-                "title": "Bootstrap 3-5",
-                "percent": 95
-            },
-            {
-                "title": "CSS Grid/Flexbox",
-                "percent": 95
-            },
-            {
-                "title": "SASS",
-                "percent": 86
-            }
-        ]
-    },
-    {
-        "icon": "/static/images/skills/webp/dev.webp",
-        "preview": "",
-        "title": "Разработка",
-        "description": "",
-        "level": "Middle+",
-        "start": 2017,
-        "short_description": "",
-        "bg": "",
-        "skills": [
-            {
-                "title": "Linux",
-                "percent": 40
-            },
-            {
-                "title": "Git",
-                "percent": 75
-            },
-            {
-                "title": "Docker",
-                "percent": 48
-            },
-            {
-                "title": "Kubernetes",
-                "percent": 29
+                "percent": 45
             }
         ]
     }
