@@ -5,7 +5,7 @@
         "title": "PHP",
         "description": "Опытный разработчик на PHP. Реализовал более 5 проектов на Laravel с админ-панелями Laravel Orchid. Обладаю навыками написания скриптов, доработки WordPress и интеграции с различными внешними системами.",
         "level": "Middle+",
-        "start": 2019,
+        "start": 2017,
         "short_description": "Laravel, Orchid, Telegram Bot",
         "bg": "linear-gradient(60deg, #212121, #787CB4)",
         "skills": [
@@ -33,7 +33,7 @@
         "title": "JS",
         "description": "Уверенно работаю с React и его экосистемой. Создаю интерактивные пользовательские интерфейсы. При необходимости применяю jQuery для более простых задач. Также был опыт работы с Next.js.",
         "level": "Middle+",
-        "start": 2019,
+        "start": 2018,
         "short_description": "React, Redux, jQuery, ESNext",
         "bg": "linear-gradient(60deg, #BF360C, #FF8F00)",
         "skills": [
